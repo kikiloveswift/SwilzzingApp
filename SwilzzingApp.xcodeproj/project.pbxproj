@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC00AAAE1DE043DF00BC4F83 /* ViewController+SwilzzingMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = FC00AAAD1DE043DF00BC4F83 /* ViewController+SwilzzingMethod.m */; };
 		FCD547FA1DCCCEA00087D36F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD547F91DCCCEA00087D36F /* main.m */; };
 		FCD547FD1DCCCEA00087D36F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD547FC1DCCCEA00087D36F /* AppDelegate.m */; };
 		FCD548001DCCCEA00087D36F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD547FF1DCCCEA00087D36F /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC00AAAC1DE043DF00BC4F83 /* ViewController+SwilzzingMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+SwilzzingMethod.h"; sourceTree = "<group>"; };
+		FC00AAAD1DE043DF00BC4F83 /* ViewController+SwilzzingMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+SwilzzingMethod.m"; sourceTree = "<group>"; };
 		FCD547F51DCCCEA00087D36F /* SwilzzingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwilzzingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD547F91DCCCEA00087D36F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCD547FB1DCCCEA00087D36F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				FCD547FC1DCCCEA00087D36F /* AppDelegate.m */,
 				FCD547FE1DCCCEA00087D36F /* ViewController.h */,
 				FCD547FF1DCCCEA00087D36F /* ViewController.m */,
+				FC00AAAC1DE043DF00BC4F83 /* ViewController+SwilzzingMethod.h */,
+				FC00AAAD1DE043DF00BC4F83 /* ViewController+SwilzzingMethod.m */,
 				FCD548011DCCCEA00087D36F /* Main.storyboard */,
 				FCD548041DCCCEA00087D36F /* Assets.xcassets */,
 				FCD548061DCCCEA00087D36F /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				FCD548001DCCCEA00087D36F /* ViewController.m in Sources */,
 				FCD547FD1DCCCEA00087D36F /* AppDelegate.m in Sources */,
+				FC00AAAE1DE043DF00BC4F83 /* ViewController+SwilzzingMethod.m in Sources */,
 				FCD547FA1DCCCEA00087D36F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +522,7 @@
 				FCD548241DCCCEA00087D36F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCD548251DCCCEA00087D36F /* Build configuration list for PBXNativeTarget "SwilzzingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				FCD548271DCCCEA00087D36F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCD548281DCCCEA00087D36F /* Build configuration list for PBXNativeTarget "SwilzzingAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				FCD5482A1DCCCEA00087D36F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
